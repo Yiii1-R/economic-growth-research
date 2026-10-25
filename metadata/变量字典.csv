@@ -1,9 +1,9 @@
 variable_code,display_name,role,definition,unit,frequency,source_ids,timing,priority,collection_status,notes
 country_id,国家实体编号,标识,统一的国家或历史实体主键,代码,不适用,内部构造,不适用,P0,待建立,不能直接用国家名称作为主键
 year,年份,标识,观察年份,年,年,内部构造,当年,P0,待建立,年度面板主键之一
-gdp_pc_maddison,人均GDP_Maddison,结果变量,实际人均GDP,Maddison原始单位,年,SRC-001,当年,P0,待收集,保留原始单位和价格基准
-gdp_pc_pwt,人均GDP_PWT,结果变量或稳健性变量,实际人均GDP,PWT原始单位,年,SRC-002,当年,P0,待收集,不与Maddison基线序列直接混用
-gdp_pc_wdi,人均GDP_WDI,结果变量外部核验,实际人均GDP或人均GNI,WDI原始单位,年,SRC-003,当年,P1,待收集,注意WDI历史缺口
+gdp_pc_maddison,人均GDP_Maddison,结果变量,实际人均GDP,Maddison原始单位,年,SRC-001,当年,P0,已收集,保留原始单位和价格基准；试点年度面板已生成
+gdp_pc_pwt,人均GDP_PWT,结果变量或稳健性变量,实际人均GDP,PWT原始单位,年,SRC-002,当年,P0,已构造,由 PWT rgdpo / pop 构造；不与Maddison基线序列直接混用
+gdp_pc_wdi,人均GDP_WDI,结果变量外部核验,实际人均GDP或人均GNI,WDI原始单位,年,SRC-003,当年,P1,已收集,使用 WDI NY.GDP.PCAP.KD；注意WDI历史缺口
 growth_5y_maddison,五年年化增长率,派生结果变量,对数人均GDP在5年窗口的几何年化增长,比例/年,5年,SRC-001,窗口起点至终点,P0,待构造,使用不重叠窗口作为基线
 growth_20y_maddison,二十年年化增长率,派生结果变量,对数人均GDP在20年窗口的几何年化增长,比例/年,20年,SRC-001,窗口起点至终点,P0,待构造,用于长期分析
 growth_5y_pwt,五年年化增长率_PWT,派生稳健性变量,对数人均GDP在5年窗口的几何年化增长,比例/年,5年,SRC-002,窗口起点至终点,P1,待构造,只用于PWT样本

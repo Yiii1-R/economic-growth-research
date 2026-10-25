@@ -1,0 +1,10 @@
+source_id: SRC-002
+dataset: Penn World Table version 11.0
+provider: Groningen Growth and Development Centre
+publication_page: https://www.rug.nl/ggdc/productivity/pwt/
+download_endpoint: https://dataverse.nl/api/access/datafile/554105
+access_date: 2026-10-26
+original_file: pwt110.xlsx
+used_sheet: Data
+used_fields: countrycode; country; year; rgdpo; pop; csh_i; csh_x; csh_m; hc
+notes: PWT output-side real GDP (rgdpo) divided by population (pop) is used as the PWT per-capita output measure. Source units are retained in the parser metadata.

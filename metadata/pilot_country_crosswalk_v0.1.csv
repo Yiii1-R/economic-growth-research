@@ -1,0 +1,16 @@
+country_id,iso3,country_name_zh,modern_entity_name,entity_start_year,entity_end_year,mapping_status,historical_notes
+ARG,ARG,阿根廷,Argentina,1820,2023,试点映射,历史边界和早期国家实体需在历史制度变量阶段单独核验
+AUS,AUS,澳大利亚,Australia,1820,2023,试点映射,历史早期数据可能对应殖民地或区域统计实体
+BRA,BRA,巴西,Brazil,1820,2023,试点映射,历史边界和早期国家实体需在历史制度变量阶段单独核验
+CHN,CHN,中国,China,1820,2023,试点映射,历史边界和政治实体连续性需单独记录
+FRA,FRA,法国,France,1820,2023,试点映射,历史边界变化先按现代 ISO3 汇总
+GBR,GBR,英国,United Kingdom,1820,2023,试点映射,历史早期数据可能对应英格兰或联合王国前实体
+IND,IND,印度,India,1820,2023,试点映射,历史早期数据可能对应英属印度等前身实体
+IDN,IDN,印度尼西亚,Indonesia,1820,2023,试点映射,历史早期数据可能对应荷属东印度等前身实体
+JPN,JPN,日本,Japan,1820,2023,试点映射,按现代国家代码保留并记录历史口径
+KOR,KOR,韩国,Republic of Korea,1820,2023,试点映射,历史早期数据与朝鲜半岛实体需单独核验
+MEX,MEX,墨西哥,Mexico,1820,2023,试点映射,按现代国家代码保留并记录历史口径
+NGA,NGA,尼日利亚,Nigeria,1820,2023,试点映射,历史早期数据可能对应殖民地或区域统计实体
+RUS,RUS,俄罗斯,Russian Federation,1820,2023,试点映射,俄罗斯帝国、苏联和俄罗斯联邦不视为同一历史实体
+USA,USA,美国,United States,1820,2023,试点映射,历史边界扩张需在历史制度变量阶段单独核验
+ZAF,ZAF,南非,South Africa,1820,2023,试点映射,历史早期数据可能对应殖民地或区域统计实体

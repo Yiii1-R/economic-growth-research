@@ -1,7 +1,7 @@
 source_id,source_name,provider,source_version,url,access_date,coverage,key_variables,priority,download_status,license_note
-SRC-001,Maddison Project Database,Groningen Growth and Development Centre,下载时锁定,https://www.rug.nl/ggdc/historicaldevelopment/maddison/, ,长期历史跨国数据；具体覆盖下载时核验,人均GDP;人口;历史比较基准,P0,待下载,使用前核对引用与许可说明
-SRC-002,Penn World Table,Groningen Growth and Development Centre,下载时锁定,https://www.rug.nl/ggdc/productivity/pwt/, ,约1950年后；具体覆盖下载时核验,人均GDP;投资份额;贸易开放度;人力资本;人口,P0,待下载,使用前核对引用与许可说明
-SRC-003,World Development Indicators,World Bank,下载时锁定,https://databank.worldbank.org/source/world-development-indicators, ,约1960年后至今,人均GDP;资本形成;贸易;人口;资源租金,P0,待下载,遵守World Bank数据使用条款
+SRC-001,Maddison Project Database,Groningen Growth and Development Centre,MPD 2023,https://www.rug.nl/ggdc/historicaldevelopment/maddison/,2026-10-26,1820—2022；试点字段覆盖按报告核验,人均GDP;人口;历史比较基准,P0,已下载,原始文件及字段说明见 data/raw/SRC-001/2023/
+SRC-002,Penn World Table,Groningen Growth and Development Centre,PWT 11.0,https://www.rug.nl/ggdc/productivity/pwt/,2026-10-26,1950—2023；试点字段覆盖按报告核验,人均GDP;投资份额;贸易开放度;人力资本;人口,P0,已下载,原始文件及字段说明见 data/raw/SRC-002/11.0/
+SRC-003,World Development Indicators,World Bank,API snapshot lastupdated 2026-10-08,https://api.worldbank.org/v2/country/ARG;AUS;BRA;CHN;FRA;GBR;IND;IDN;JPN;KOR;MEX;NGA;RUS;USA;ZAF/indicator/NY.GDP.PCAP.KD?date=1960:2023&format=json&per_page=10000,2026-10-26,1960—2023；试点字段覆盖按报告核验,人均GDP;资本形成;贸易;人口;资源租金,P0,已下载,API 快照及元数据见 data/raw/SRC-003/2026-10-26/
 SRC-004,V-Dem,Varieties of Democracy Institute,下载时锁定,https://www.v-dem.net/data/, ,现代及部分历史时期；具体覆盖下载时核验,民主指数;行政约束;国家能力,P0,待下载,引用对应数据集和版本
 SRC-005,Polity5,Center for Systemic Peace,下载时锁定,https://www.systemicpeace.org/inscrdata.html, ,约1800年后；具体覆盖下载时核验,政体类型;行政约束,P0,待下载,注意历史终止年份和项目说明
 SRC-006,Quality of Government Standard Dataset,University of Gothenburg,下载时锁定,https://www.qogdata.pol.gu.se/data/, ,多来源制度与治理变量汇编,制度指标外部核验;治理变量,P1,待下载,每个变量需追溯到原始来源

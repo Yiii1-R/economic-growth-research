@@ -1,0 +1,10 @@
+source_id: SRC-001
+dataset: Maddison Project Database 2023
+provider: Groningen Growth and Development Centre
+publication_page: https://www.rug.nl/ggdc/historicaldevelopment/maddison/
+download_endpoint: https://dataverse.nl/api/access/datafile/421302
+access_date: 2026-10-26
+original_file: mpd2023_web.xlsx
+used_sheets: GDPpc; Population
+used_fields: GDPpc sheet rows 1-3 and country-year values; Population sheet rows 1-3 and country-year values
+notes: The workbook is retained unchanged. The parser preserves the source's wide-table structure and missing values.

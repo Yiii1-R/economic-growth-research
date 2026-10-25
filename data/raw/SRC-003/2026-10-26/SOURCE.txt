@@ -1,0 +1,10 @@
+source_id: SRC-003
+dataset: World Development Indicators
+provider: World Bank
+indicator: NY.GDP.PCAP.KD — GDP per capita (constant 2015 US$)
+api_endpoint: https://api.worldbank.org/v2/country/ARG;AUS;BRA;CHN;FRA;GBR;IND;IDN;JPN;KOR;MEX;NGA;RUS;USA;ZAF/indicator/NY.GDP.PCAP.KD?date=1960:2023&format=json&per_page=10000
+access_date: 2026-10-26
+lastupdated: 2026-10-08
+original_file: wdi_gdp_pc_constant_2015_usd.json
+used_fields: countryiso3code; date; value; indicator.id; indicator.value
+notes: The JSON response is retained unchanged as an API snapshot. Missing values remain missing and are not treated as zero.

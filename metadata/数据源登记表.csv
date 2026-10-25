@@ -1,0 +1,13 @@
+source_id,source_name,provider,source_version,url,access_date,coverage,key_variables,priority,download_status,license_note
+SRC-001,Maddison Project Database,Groningen Growth and Development Centre,下载时锁定,https://www.rug.nl/ggdc/historicaldevelopment/maddison/, ,长期历史跨国数据；具体覆盖下载时核验,人均GDP;人口;历史比较基准,P0,待下载,使用前核对引用与许可说明
+SRC-002,Penn World Table,Groningen Growth and Development Centre,下载时锁定,https://www.rug.nl/ggdc/productivity/pwt/, ,约1950年后；具体覆盖下载时核验,人均GDP;投资份额;贸易开放度;人力资本;人口,P0,待下载,使用前核对引用与许可说明
+SRC-003,World Development Indicators,World Bank,下载时锁定,https://databank.worldbank.org/source/world-development-indicators, ,约1960年后至今,人均GDP;资本形成;贸易;人口;资源租金,P0,待下载,遵守World Bank数据使用条款
+SRC-004,V-Dem,Varieties of Democracy Institute,下载时锁定,https://www.v-dem.net/data/, ,现代及部分历史时期；具体覆盖下载时核验,民主指数;行政约束;国家能力,P0,待下载,引用对应数据集和版本
+SRC-005,Polity5,Center for Systemic Peace,下载时锁定,https://www.systemicpeace.org/inscrdata.html, ,约1800年后；具体覆盖下载时核验,政体类型;行政约束,P0,待下载,注意历史终止年份和项目说明
+SRC-006,Quality of Government Standard Dataset,University of Gothenburg,下载时锁定,https://www.qogdata.pol.gu.se/data/, ,多来源制度与治理变量汇编,制度指标外部核验;治理变量,P1,待下载,每个变量需追溯到原始来源
+SRC-007,Barro-Lee Educational Attainment Dataset,Barro and Lee,下载时锁定,http://www.barrolee.com/, ,约1950至2010；具体覆盖下载时核验,平均受教育年限;教育结构,P0,待下载,使用前核对引用和版本
+SRC-008,Wittgenstein Centre Human Capital Data Explorer,Wittgenstein Centre,下载时锁定,https://dataexplorer.wittgensteincentre.org/, ,按年龄和教育分组的人口数据；具体覆盖下载时核验,人力资本;教育人口结构,P1,待下载,核对版本、情景和人口口径
+SRC-009,UCDP/PRIO Armed Conflict Dataset,Uppsala Conflict Data Program; PRIO,下载时锁定,https://ucdp.uu.se/downloads/, ,二战后为主；与历史冲突数据结合使用,国内武装冲突;国家间冲突;冲突强度,P0,待下载,核对冲突定义和版本
+SRC-010,CEPII GeoDist,CEPII,下载时锁定,https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=6, ,跨国双边地理距离及国家地理属性,内陆国;纬度;距离;邻国,P0,待下载,注意国家代码版本
+SRC-011,World Population Prospects,United Nations,下载时锁定,https://population.un.org/wpp/, ,约1950年后；早期人口需外部补充,人口;年龄结构;人口增长,P0,待下载,核对修订版本和估计口径
+SRC-012,World Bank Country and Lending Groups,World Bank,下载时锁定,https://datahelpdesk.worldbank.org/knowledgebase/articles/906519, ,现代国家与地区分类,ISO3;地区;收入组,P0,待下载,只使用当前分类作为辅助变量
